@@ -1,13 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Message from './components/Message.vue'
-import TaskManager from './components/TaskManager.vue';
+
+import RFIDScanner from './components/RFIDScanner.vue';
 </script>
 
 <template>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <Message /> -->
-       <TaskManager />
+ <div>
+      <RFIDScanner />
+ </div>
 </template>
 
 <style scoped></style>
